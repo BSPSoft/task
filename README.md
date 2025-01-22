@@ -19,6 +19,12 @@
 - **React Hooks**: لإدارة حالة التطبيق مثل `useState` و`useEffect`.
 
 ---
+## Topics
+- React
+- Html
+- css
+
+---
 
 ## **كيفية تشغيل المشروع**
 
