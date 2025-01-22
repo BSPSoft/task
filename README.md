@@ -1,70 +1,96 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# تطبيق إدارة المهام - React
 
-## Available Scripts
+تطبيق بسيط لإدارة المهام اليومية تم تطويره باستخدام React. يوفر التطبيق واجهة تفاعلية تتيح للمستخدم إضافة مهام جديدة، تعديل حالتها (مكتملة أو غير مكتملة)، حذف المهام، والبحث عن مهمة معينة بسهولة.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## **المميزات**
+- **إضافة مهمة جديدة**: يمكن للمستخدم إنشاء مهمة جديدة مع إدخال التفاصيل اللازمة.
+- **تعديل حالة المهمة**: يمكن تبديل حالة المهمة بين مكتملة وغير مكتملة بنقرة واحدة.
+- **حذف المهام**: إمكانية حذف المهام غير الضرورية.
+- **البحث عن المهام**: شريط بحث مخصص للعثور على المهام باستخدام النص المدخل.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **التقنيات المستخدمة**
+- **React**: مكتبة JavaScript لبناء واجهات المستخدم.
+- **CSS**: لتنسيق وتصميم واجهة المستخدم.
+- **React Hooks**: لإدارة حالة التطبيق مثل `useState` و`useEffect`.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **كيفية تشغيل المشروع**
 
-### `npm run build`
+1. قم بتحميل المشروع أو استنساخه باستخدام الأمر:
+   ```bash
+   git clone https://github.com/BSPSoft/task.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. انتقل إلى مجلد المشروع:
+   ```bash
+   cd task
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. قم بتثبيت الحزم المطلوبة:
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. قم بتشغيل التطبيق:
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+5. افتح المتصفح وانتقل إلى:
+   ```
+   http://localhost:3000
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## **الوظائف الرئيسية**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 1. إضافة مهمة
+- قم بكتابة اسم المهمة في حقل الإدخال واضغط على زر "إضافة" لإضافتها إلى القائمة.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 2. تعديل حالة المهمة
+- يمكنك النقر على مربع بجانب المهمة لتبديل حالتها بين "مكتملة" و"غير مكتملة".
 
-## Learn More
+### 3. حذف مهمة
+- اضغط على زر الحذف بجانب المهمة لحذفها من القائمة.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 4. البحث عن مهمة
+- استخدم شريط البحث في أعلى التطبيق لكتابة اسم المهمة وستظهر المهام المطابقة.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## **صور من التطبيق**
+### 1. واجهة التطبيق الرئيسية:
+![واجهة التطبيق](./public/page1.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 2. البحث عن المهام:
+![إضافة المهام](./public/page2.jpg)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## **التطوير المستقبلي**
+- إضافة تصنيفات للمهام (مثل: شخصية، عمل، دراسة).
+- توفير خيار لتعديل نص المهمة بعد إضافتها.
+- إنشاء واجهة مستخدم مظلمة (Dark Mode).
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## **المساهمة**
+مرحب بجميع المساهمات لتحسين هذا المشروع! يمكنك فتح مشكلة (Issue) أو إرسال طلب دمج (Pull Request) عبر GitHub.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## **المؤلف**
+- **اسمك هنا**
+- [GitHub](https://github.com/BSPSoft)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## **الترخيص**
+هذا المشروع مرخص تحت رخصة [MIT](LICENSE).
